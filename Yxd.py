@@ -16,7 +16,7 @@ def add(a: int, b: int) -> int:
 def Plan(inputregno:str,inputuser:str):
     """我的计划"""
     datas = []
-    url = "http://101.132.27.9:8090/openapi/gfspdf/plandata"
+    url = "http://localhost:8090/openapi/gfspdf/plandata"
     params = {
         "inputregno": inputregno,
         "inputuser": inputuser
